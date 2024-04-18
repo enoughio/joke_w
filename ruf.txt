@@ -1,0 +1,23 @@
+ <script>
+    var wasCorrect = "<%= locals.wasCorrect %>";
+    console.log(wasCorrect)
+    if (wasCorrect === "false") {
+      alert('Game over! Final best score: <%= locals.totalScore %>');
+      document.getElementById("app").innerHTML = '<a href="/got" class="restart-button">Restart</a>'
+    }
+
+
+  </script>
+
+
+
+
+
+
+
+
+     document.body.addEventListener("keydown", ()=>{
+                    console.log("haaaaaaaaaaaaaaaaaa");
+               })
+            document.getElementById("app").innerHTML = '<a href="/got" class="restart-button">Restart</a>'
+      

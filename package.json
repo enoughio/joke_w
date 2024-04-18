@@ -1,0 +1,20 @@
+{
+  "name": "jokes",
+  "version": "1.0.0",
+  "description": "a api based project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aniket",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+<<<<<<< HEAD
+=======
+    "ejs": "^3.1.10",
+>>>>>>> 83189cb (create routes)
+    "express": "^4.19.2"
+  }
+}
